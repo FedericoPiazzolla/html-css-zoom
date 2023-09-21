@@ -14,13 +14,7 @@ a{
 }
 
 /* UTILITIES */
-.adaptive{
-  width: 100%;
-  height: calc(100vh - 100px);
-  background-color: black;  
-  overflow: auto;
 
-}
 
 .flex{
   display: flex;
@@ -32,6 +26,36 @@ a{
 }
 
 /* MAIN */
+/* ICON TOP-RIGHT */
+.speaker-view{
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  padding: .3rem .8rem;
+  border-radius: 2rem;
+  background-color: rgba(136, 142, 148, 0.3);
+  color: white;
+}
+
+.full-screen{
+  position: absolute;
+  right: 2px;
+  top: 10px;
+  padding: .3rem .8rem;
+  border-radius: 2rem;
+  background-color: rgba(136, 142, 148, 0.3);
+  color: white;
+}
+
+
+.adaptive{
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: black;  
+  overflow: auto;
+}
+
 .wrapper{
   margin-top: 2.8rem;
   flex-wrap: wrap;
@@ -112,6 +136,13 @@ a h4{
   padding: 1.7rem 1rem 0;
   position: relative;
   text-align: center;
+  position: relative;
+}
+
+.angle{
+  position: absolute;
+  right: 0;
+  top: 50%;
 }
 
 .video{
