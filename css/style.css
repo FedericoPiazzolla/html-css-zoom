@@ -50,6 +50,7 @@ img{
   bottom: 0;
   left: 0;
   text-align: center;
+  font-size: 1rem;
   padding: .3rem .8rem;
   background-color: rgba(93, 107, 120, .7);
   color: white;
