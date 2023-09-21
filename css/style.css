@@ -1,5 +1,56 @@
+/* RESET */
 * {
   margin: 0 ;
   padding: 0 ;
   box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* UTILITIES */
+.adaptive{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.flex{
+  display: flex;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* MAIN */
+.wrapper{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 100%;
+  /* debug */
+  border: 1px solid yellow;
+  min-height: 5rem;
+}
+
+.col {
+  position: relative;
+  width: calc(96% / 7);
+  margin-bottom: 1rem;
+}
+
+.col img{
+  display: block;
+}
+
+.mic-name{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: .3rem .8rem;
+  background-color: rgba(93, 107, 120, .7);
+  color: white;
 }
