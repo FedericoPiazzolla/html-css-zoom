@@ -21,7 +21,7 @@ body{
 
 /* MAIN */
 main{
-  height: 100%;
+  height: calc(100% - 100px);
   background-color: black;
 }
 
@@ -38,4 +38,38 @@ main{
   padding: .4rem;
   border-radius: .5rem;
   border: 1px solid gray;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: .3rem 0;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  width: calc(100% / 7);
+  padding: .5rem;
+}
+
+.partecipant{
+  position: relative;
+  color: white;
+}
+
+.partecipant-name{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: .5rem;
+  font-size: .8rem;
+}
+
+footer{
+  height: 100px;
 }
