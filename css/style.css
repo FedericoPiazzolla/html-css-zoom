@@ -99,8 +99,16 @@ footer ul a {
   align-items: center;
 }
 
+.footer-center ul li i{
+  margin: .7rem;
+}
+
+.green{
+  color: green;
+}
+
 .footer-left{
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .footer-right {
